@@ -1,0 +1,221 @@
+:root {
+  --soil-900: #3f2a1f;
+  --soil-700: #6a4732;
+  --leaf-700: #2f5d3a;
+  --leaf-500: #4f8a4f;
+  --carrot-500: #de6b1f;
+  --beet-500: #b63a4b;
+  --cream-100: #fdf8ef;
+  --cream-200: #f3e7d1;
+  --sun-300: #e5bf6b;
+  --ink-900: #1f1a14;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Bookman Old Style", "Garamond", serif;
+  color: var(--ink-900);
+  background:
+    radial-gradient(circle at 20% 15%, rgba(229, 191, 107, 0.3), transparent 32%),
+    radial-gradient(circle at 82% 88%, rgba(79, 138, 79, 0.28), transparent 30%),
+    linear-gradient(165deg, var(--cream-100), var(--cream-200));
+}
+
+.page-plan {
+  background:
+    radial-gradient(circle at 15% 20%, rgba(111, 171, 111, 0.22), transparent 35%),
+    radial-gradient(circle at 85% 80%, rgba(222, 107, 31, 0.17), transparent 33%),
+    linear-gradient(170deg, #f2f8ef, #ebf4e7 55%, #f6efe2);
+}
+
+.page-benefits {
+  background:
+    radial-gradient(circle at 18% 18%, rgba(79, 138, 79, 0.18), transparent 36%),
+    radial-gradient(circle at 80% 84%, rgba(182, 58, 75, 0.14), transparent 34%),
+    linear-gradient(165deg, #f4f9f1, #eef6eb 55%, #f8f2e6);
+}
+
+.page-inspiration {
+  background:
+    radial-gradient(circle at 14% 20%, rgba(79, 138, 79, 0.2), transparent 34%),
+    radial-gradient(circle at 82% 82%, rgba(222, 107, 31, 0.14), transparent 30%),
+    linear-gradient(170deg, #f3f9f2, #edf6ee 55%, #f7f1e4);
+}
+
+.page-shell {
+  width: min(980px, 92%);
+  margin: 2rem auto;
+  border: 2px solid rgba(63, 42, 31, 0.2);
+  border-radius: 18px;
+  background: rgba(253, 248, 239, 0.9);
+  box-shadow: 0 16px 36px rgba(63, 42, 31, 0.12);
+  overflow: hidden;
+}
+
+.site-header {
+  padding: 1.25rem 1.5rem;
+  background: linear-gradient(115deg, var(--soil-700), var(--leaf-700));
+}
+
+.brand {
+  display: inline-block;
+  margin-bottom: 0.85rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #f8efe3;
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-size: 0.95rem;
+}
+
+.site-nav a:hover,
+.site-nav a:focus-visible {
+  border-color: rgba(253, 248, 239, 0.75);
+  outline: none;
+}
+
+.site-nav a.active {
+  background: rgba(253, 248, 239, 0.92);
+  color: var(--soil-900);
+  font-weight: 700;
+}
+
+.content {
+  padding: 1.75rem 1.5rem 1.25rem;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--soil-900);
+  font-size: clamp(1.5rem, 3.4vw, 2rem);
+}
+
+p,
+li {
+  line-height: 1.65;
+  font-size: 1.03rem;
+}
+
+p {
+  margin: 0 0 0.9rem;
+}
+
+.section-card {
+  margin: 1rem 0;
+  padding: 0.95rem 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(63, 42, 31, 0.18);
+  background: rgba(253, 248, 239, 0.98);
+}
+
+.section-card h2 {
+  margin: 0 0 0.55rem;
+  font-size: 1.08rem;
+  color: var(--leaf-700);
+  border-left: 5px solid var(--carrot-500);
+  padding-left: 0.5rem;
+}
+
+.section-card ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.section-card li {
+  margin: 0.2rem 0;
+}
+
+.intro-figure {
+  margin: 0 0 0.75rem;
+}
+
+.intro-image {
+  display: block;
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid rgba(63, 42, 31, 0.18);
+}
+
+.intro-figure figcaption {
+  margin-top: 0.35rem;
+  font-size: 0.92rem;
+  color: var(--soil-700);
+}
+
+blockquote {
+  margin: 0.65rem 0 0.55rem;
+  padding: 0.55rem 0.75rem;
+  border-left: 4px solid var(--beet-500);
+  background: rgba(182, 58, 75, 0.08);
+  font-style: italic;
+}
+
+.tip-box {
+  margin-top: 1.1rem;
+  padding: 0.9rem 1rem;
+  border-radius: 12px;
+  border-left: 6px solid var(--leaf-500);
+  background: rgba(79, 138, 79, 0.1);
+}
+
+.tip-box h2 {
+  margin: 0 0 0.35rem;
+  color: var(--leaf-700);
+  font-size: 1rem;
+}
+
+.tip-box p {
+  margin: 0;
+  font-size: 0.98rem;
+}
+
+.site-footer {
+  padding: 0.95rem 1.5rem 1.1rem;
+  border-top: 1px solid rgba(63, 42, 31, 0.16);
+  background: rgba(243, 231, 209, 0.72);
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+@media (max-width: 720px) {
+  .page-shell {
+    width: 95%;
+    margin: 1rem auto;
+  }
+
+  .site-header,
+  .content,
+  .site-footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .site-nav a {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+  <title id="title">Root vegetables growing in a container pot</title>
+  <desc id="desc">A large garden container with carrots, radishes, beets, onions, potatoes, and turnips growing in rich soil.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eef8ef"/>
+      <stop offset="100%" stop-color="#d9ecd8"/>
+    </linearGradient>
+    <linearGradient id="pot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bb7a3d"/>
+      <stop offset="100%" stop-color="#8b5228"/>
+    </linearGradient>
+    <linearGradient id="soil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a3b27"/>
+      <stop offset="100%" stop-color="#3c271b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="620" fill="url(#bg)"/>
+  <ellipse cx="500" cy="560" rx="320" ry="38" fill="#bfd7bc"/>
+
+  <path d="M220 220h560l-46 280H266z" fill="url(#pot)"/>
+  <ellipse cx="500" cy="220" rx="280" ry="56" fill="#c3874f"/>
+  <ellipse cx="500" cy="228" rx="250" ry="42" fill="url(#soil)"/>
+
+  <g stroke="#2e713e" stroke-width="10" stroke-linecap="round" fill="none">
+    <path d="M325 170c-20-18-18-42-3-60"/>
+    <path d="M355 168c18-20 18-44 2-63"/>
+    <path d="M445 170c-18-16-16-39-1-56"/>
+    <path d="M480 165c17-18 17-41 3-58"/>
+    <path d="M560 170c-20-16-20-39-5-58"/>
+    <path d="M600 168c16-19 16-42 2-60"/>
+    <path d="M675 172c-18-16-16-40-2-58"/>
+  </g>
+
+  <g>
+    <path d="M328 228c10 35 3 70-15 96-26-30-30-64-15-98z" fill="#f17f2d"/>
+    <path d="M452 232c9 32 2 63-13 87-22-27-26-58-13-89z" fill="#f17f2d"/>
+    <circle cx="390" cy="278" r="34" fill="#cf3d57"/>
+    <circle cx="548" cy="282" r="36" fill="#b74263"/>
+    <ellipse cx="610" cy="280" rx="28" ry="36" fill="#e8d9b3"/>
+    <ellipse cx="665" cy="285" rx="36" ry="30" fill="#d2b078"/>
+    <ellipse cx="718" cy="290" rx="34" ry="26" fill="#dcbf83"/>
+    <ellipse cx="500" cy="300" rx="34" ry="30" fill="#ead6a8"/>
+    <path d="M730 230c8 30 4 58-11 80-20-25-24-53-12-81z" fill="#f0e7cf"/>
+  </g>
+
+  <g fill="#2f7d3f">
+    <ellipse cx="315" cy="120" rx="24" ry="14"/>
+    <ellipse cx="348" cy="112" rx="24" ry="14"/>
+    <ellipse cx="440" cy="116" rx="22" ry="12"/>
+    <ellipse cx="478" cy="106" rx="20" ry="12"/>
+    <ellipse cx="555" cy="114" rx="22" ry="12"/>
+    <ellipse cx="599" cy="106" rx="20" ry="12"/>
+    <ellipse cx="675" cy="114" rx="22" ry="12"/>
+  </g>
+
+  <text x="500" y="500" text-anchor="middle" font-size="38" fill="#3f2a1f" font-family="Georgia, serif">
+    Organic Root Vegetables in a Container Pot
+  </text>
+</svg>
